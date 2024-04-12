@@ -40,7 +40,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -53,8 +52,8 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.github.nepsalone'
-            artifactId = 'exoplayer'
-            version = "1.0.0"
+            artifactId = 'exolibrary'
+            version = "1.1.0"
             pom {
                 description = 'nepsalone'
             }
