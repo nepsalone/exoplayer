@@ -1,0 +1,9 @@
+# configuration file for building snapshots and releases with jitpack.io
+jdk:
+  - openjdk17
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
+install:
+  - FILE="-Dfile=app/libs/exoplayer-core-r2.9.1.aar"
+  - FILE="-Dfile=app/libs/exoplayer-hls-r2.9.1.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.exoplayer -DartifactId=exoplayer -Dversion=1.0.3 -Dpackaging=aar -DgeneratePom=true
