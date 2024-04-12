@@ -1,4 +1,4 @@
-package com.itechneps.exolibrary.metadata;
+package com.itechneps.exoplayer.metadata;
 
 import androidx.annotation.NonNull;
 

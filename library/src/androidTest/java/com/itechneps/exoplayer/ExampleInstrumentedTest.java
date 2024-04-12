@@ -1,4 +1,4 @@
-package com.itechneps.exolibrary;
+package com.itechneps.exoplayer;
 
 import android.content.Context;
 

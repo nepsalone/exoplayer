@@ -41,7 +41,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.nepsalone'
             artifactId = 'exoplayer'
-            version = "1.0.3"
+            version = "1.0.4"
             pom {
                 description = 'nepsalone'
             }
