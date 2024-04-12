@@ -17,6 +17,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "itechneps exoplayer"
+rootProject.name = "Exoplayer"
 include ':app'
 include ':library'
