@@ -1,8 +1,10 @@
-package com.itechneps.exoplayer;
+package com.itechneps.exoplayer.demo;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.itechneps.exoplayer.demo.R;
 
 public class MainActivity extends AppCompatActivity {
 

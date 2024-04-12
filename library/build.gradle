@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.itechneps.exolibrary'
+    namespace 'com.itechneps.exoplayer'
     compileSdk 34
 
     defaultConfig {
@@ -25,6 +25,7 @@ android {
     }
 }
 
+
 dependencies {
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.6.1'
@@ -32,12 +33,14 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.github.google.ExoPlayer:exoplayer-core:r2.9.1'
+    implementation 'com.github.google.ExoPlayer:exoplayer-hls:r2.9.1'
 }
 publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.github.nepsalone'
-            artifactId = 'exolibrary'
+            artifactId = 'exoplayer'
             version = "1.0.3"
             pom {
                 description = 'nepsalone'
