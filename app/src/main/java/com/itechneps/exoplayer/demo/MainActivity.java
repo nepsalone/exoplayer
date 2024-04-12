@@ -4,8 +4,6 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.itechneps.exoplayer.demo.R;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
