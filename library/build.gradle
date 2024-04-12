@@ -54,4 +54,7 @@ publishing {
             }
         }
     }
+        repositories {               // << --- ADD This
+        mavenLocal()
+    }
 }
