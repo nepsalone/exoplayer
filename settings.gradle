@@ -18,5 +18,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Exoplayer"
-include ':app'
-include ':library'
+include ':demo'
+include ':exoplayer-core'
+include ':exoplayer-hls'

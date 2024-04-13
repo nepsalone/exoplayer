@@ -1,7 +1,0 @@
-<resources>
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Itech" parent="Theme.Material3.DayNight.NoActionBar">
-    </style>
-
-    <style name="Theme.ItechNepsExo" parent="Base.Theme.Itech" />
-</resources>
