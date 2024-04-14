@@ -19,7 +19,7 @@ Its very easy to show shoutcast Icecast Streaming IcyMetadata
  implement
  `DefaultDataSourceFactory dataSourceFactory = new DefaultDataSourceFactory(getApplicationContext(), null, icy);`
  
- icy Data
+ icyData {
  `public IcyHttpDataSourceFactory icy = new IcyHttpDataSourceFactory
             .Builder(Tools.getUserAgent())
             .setAllowCrossProtocolRedirects(true)
@@ -44,6 +44,8 @@ Its very easy to show shoutcast Icecast Streaming IcyMetadata
 
                 }
             }).build();`
+
+     }
 	    
 
 * [Javadoc][]: Classes matching `com.google.android.exoplayer2.source.hls.*`
