@@ -16,10 +16,10 @@ Its very easy to show shoutcast Icecast Streaming IcyMetadata
 	 `implementation 'com.github.nepsalone.exoplayer:exoplayer-core:1.0.6'`
          `implementation 'com.github.nepsalone.exoplayer:exoplayer-hls:1.0.6'`
 	}
- implement{
+ implement
  `DefaultDataSourceFactory dataSourceFactory = new DefaultDataSourceFactory(getApplicationContext(), null, icy);`
- }
- icy Data{
+ 
+ icy Data
  `public IcyHttpDataSourceFactory icy = new IcyHttpDataSourceFactory
             .Builder(Tools.getUserAgent())
             .setAllowCrossProtocolRedirects(true)
@@ -44,7 +44,7 @@ Its very easy to show shoutcast Icecast Streaming IcyMetadata
 
                 }
             }).build();`
-	    }
+	    
 
 * [Javadoc][]: Classes matching `com.google.android.exoplayer2.source.hls.*`
   belong to this module.
