@@ -43,7 +43,7 @@ Its very easy to show shoutcast Icecast Streaming IcyMetadata
                     e.printStackTrace();
 
                 }
-            }).build();```
+            }).build();
 	    
 
 * [Javadoc][]: Classes matching `com.google.android.exoplayer2.source.hls.*`
