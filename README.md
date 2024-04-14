@@ -4,15 +4,15 @@
 Provides support for HTTP Live Streaming (HLS) content. To play HLS content,
 instantiate a `HlsMediaSource` and pass it to `ExoPlayer.prepare`.
 
-# ExoPlayer core library module #
+## ExoPlayer core library module ##
 
 The core of the ExoPlayer library.
 Implementation: IcyHttpDataSourceFactory.java
 Implementation: IcyHttpDataSource.java
 Its very easy to show shoutcast Icecast Streaming IcyMetadata
-## Links ##
+# Links #
 
-	* [Javadoc][]:dependencies {
+	dependencies {
 	 `implementation 'com.github.nepsalone.exoplayer:exoplayer-core:1.0.6'`
          `implementation 'com.github.nepsalone.exoplayer:exoplayer-hls:1.0.6'`
 	}
