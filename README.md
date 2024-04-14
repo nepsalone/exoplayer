@@ -1,6 +1,3 @@
-<a href="https://github.com/nepsalone/exoplayer">
-    <img src="https://komarev.com/ghpvc/?username=nepsalone&style=flat&color=red">
-</a>
 # iTechneps Exoplayer Library v2.9.6 #
 ## ExoPlayer HLS library module ##
 
