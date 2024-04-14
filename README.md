@@ -20,7 +20,7 @@ Its very easy to show shoutcast Icecast Streaming IcyMetadata
  `DefaultDataSourceFactory dataSourceFactory = new DefaultDataSourceFactory(getApplicationContext(), null, icy);`
  }
  icy Data{
- `    public IcyHttpDataSourceFactory icy = new IcyHttpDataSourceFactory
+ `public IcyHttpDataSourceFactory icy = new IcyHttpDataSourceFactory
             .Builder(Tools.getUserAgent())
             .setAllowCrossProtocolRedirects(true)
             .setConnectTimeoutMillis(1000)
